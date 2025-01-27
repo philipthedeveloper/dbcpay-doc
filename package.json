@@ -69,5 +69,8 @@
       "plugin:storybook/recommended",
       "plugin:storybook/recommended"
     ]
+  },
+  "engines": {
+    "node": ">=20.X.X"
   }
 }
