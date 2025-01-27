@@ -8,10 +8,7 @@
     {
       "type": "registry:ui",
       "content": "import { Button } from \"@/components/ui/button\";\r\n\r\nconst DangerButton = () => <Button className=\"bg-red-500 rounded-md\" />;\r\n\r\nexport default DangerButton;\r\n",
-      "path": {
-        "path": "ui/p-button/p-button.tsx",
-        "type": "registry:ui"
-      },
+      "path": "ui/p-button/p-button.tsx",
       "target": "components/ui/p-button/p-button.tsx"
     }
   ]

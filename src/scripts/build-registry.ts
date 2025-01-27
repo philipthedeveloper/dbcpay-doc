@@ -55,7 +55,7 @@ const getComponentFiles = async (files: File[] | string[]) => {
           file.path.split("/")[0] as keyof typeof FolderToComponentTypeMap
         ],
         content: fileContent,
-        path: file,
+        path: file.path,
         target: `${COMPONENT_FOLDER_PATH}/${file.path}`,
       };
     }
